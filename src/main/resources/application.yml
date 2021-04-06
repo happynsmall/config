@@ -13,8 +13,8 @@ spring:
     config:
       server:        
         git:
-          uri: https://${git_host:github.com}:${git_port:443}/${git_org:leehanyong0429}/${git_repo:configmng.git}
-          username: ${git_id:happycloudpak}
+          uri: https://${git_host:github.com}:${git_port:443}/${git_org:happynsmall}/${git_repo:configmng.git}
+          username: ${git_id:happyns}
           password: ${git_pw:happy@cloud0}                            
           search-paths: /*                       #base directory to search profiles
           default-label: ${git_branch:main}      #git branch
@@ -23,7 +23,7 @@ spring:
       enabled: true
 
   rabbitmq:
-    host: ${mq_host:169.56.84.41}
+    host: ${mq_host:169.56.84.36}
     port: ${mq_port:31060}
     username: ${mq_id:guest}
     password: ${mq_pw:guest}
